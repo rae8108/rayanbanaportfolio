@@ -5,10 +5,9 @@ export default function home() {
   return (
     <div className="Home">
       <button className="contact-button">Contact me</button>
-      ``
-      <div>
+      {/* <div>
         <p className="portfolio-list">Portfolio</p>
-      </div>
+      </div> */}
       <div class="grid-container">
         <div className="grid-item">
           <h4>Dictonary App</h4>

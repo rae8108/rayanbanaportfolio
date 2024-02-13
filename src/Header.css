@@ -1,0 +1,26 @@
+.header {
+  font-size: 65px;
+  letter-spacing: 5px;
+  margin-top: 340px;
+  text-align: left;
+}
+
+/* .header-container {
+  background-color: lightsalmon;
+} */
+
+.biography-container {
+  max-width: 450px;
+  margin-bottom: 10px;
+}
+
+.header-2 {
+  margin-top: -40px;
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.biography {
+  text-align: left;
+}
