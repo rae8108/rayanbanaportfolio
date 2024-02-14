@@ -4,7 +4,6 @@ import "./Home.css";
 export default function home() {
   return (
     <div className="Home">
-      <button className="contact-button">Contact me</button>
       {/* <div>
         <p className="portfolio-list">Portfolio</p>
       </div> */}
