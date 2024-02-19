@@ -8,7 +8,7 @@ export default function PortfolioButtons() {
       <button>Weather App </button>
       <button>Stephen Sanchez </button>
       <button>Bratz </button>
-      <button>AI Positive Quotes Generator </button>
+      <button>Quotes Generator </button>
     </div>
   );
 }
