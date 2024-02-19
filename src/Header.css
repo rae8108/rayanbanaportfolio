@@ -1,12 +1,14 @@
 .header {
   font-size: 65px;
   letter-spacing: 5px;
-  margin-top: 340px;
+  margin-top: 320px;
+
   text-align: left;
 }
 
 /* .header-container {
-  background-color: lightsalmon;
+  max-width: 2000px;
+  background-color: lightcoral;
 } */
 
 .biography-container {

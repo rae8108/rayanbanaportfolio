@@ -1,6 +1,5 @@
 import React from "react";
 import "./Header.css";
-import Home from "./Home";
 import GithubLogo from "./GithubLogo";
 
 export default function Header() {
@@ -19,7 +18,6 @@ export default function Header() {
           <GithubLogo />
         </div>
       </div>
-      <Home />
     </div>
   );
 }

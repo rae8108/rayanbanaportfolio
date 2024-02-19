@@ -1,36 +1,4 @@
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
-  margin-top: 60px;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 10px;
-}
-
-.grid-item {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 20px;
-  font-size: 18px;
-  background-color: lightpink;
-  border: none;
-  border-radius: 5px;
-}
-
-.container {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.container iframe {
-  width: 700px;
-  height: 400px;
+h2 {
+  font-size: 30px;
+  letter-spacing: 2px;
 }
