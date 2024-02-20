@@ -14,11 +14,41 @@ export default function NavBar() {
             Projects
           </a>
           <div className="dropdown-content">
-            <a href="#">Dictionary App</a>
-            <a href="#">Weather App</a>
-            <a href="#">Stephen Sanchez</a>
-            <a href="#">Bratz</a>
-            <a href="#">Quotes Generator</a>
+            <a
+              href="https://dictionary-project-sun.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Dictionary App
+            </a>
+            <a
+              href="https://weather-app-rae.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Weather App
+            </a>
+            <a
+              href="https://sanchez-responsive.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Stephen Sanchez
+            </a>
+            <a
+              href="https://silver-kitten-304eaf.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Bratz
+            </a>
+            <a
+              href="https://positive-quotes-generator.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Quotes Generator
+            </a>
           </div>
         </div>
         <a href="/contact" className="nav-link">
