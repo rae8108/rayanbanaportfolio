@@ -2,14 +2,8 @@
   font-size: 65px;
   letter-spacing: 5px;
   margin-top: 320px;
-
   text-align: left;
 }
-
-/* .header-container {
-  max-width: 2000px;
-  background-color: lightcoral;
-} */
 
 .biography-container {
   max-width: 450px;
@@ -25,4 +19,17 @@
 
 .biography {
   text-align: left;
+}
+
+@media (max-width: 600px) {
+  .header {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .header-2,
+  .biography {
+    text-align: center;
+  }
 }
