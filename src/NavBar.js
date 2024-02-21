@@ -26,10 +26,10 @@ export default function NavBar() {
               target="_blank"
               rel="noreferrer"
             >
-              Weather App
+              World Clock
             </a>
             <a
-              href="https://sanchez-responsive.netlify.app/"
+              href="https://world-clock-rae.netlify.app/index.html"
               target="_blank"
               rel="noreferrer"
             >
