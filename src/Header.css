@@ -28,8 +28,12 @@
     margin-bottom: 50px;
   }
 
-  .header-2,
+  .header-2 {
+    text-align: center;
+  }
+
   .biography {
     text-align: center;
+    margin-left: 58px;
   }
 }
