@@ -22,14 +22,14 @@ export default function NavBar() {
               Dictionary App
             </a>
             <a
-              href="https://weather-app-rae.netlify.app/"
+              href="https://world-clock-rae.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >
               World Clock
             </a>
             <a
-              href="https://world-clock-rae.netlify.app/index.html"
+              href="https://sanchez-responsive.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >
