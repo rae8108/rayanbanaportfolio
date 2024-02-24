@@ -24,8 +24,21 @@ const icons = [
 export default function Dictionary() {
   return (
     <div>
-      <h2>Dictionary app</h2>
-      <p>Languages used in this project:</p>
+      <h2
+        style={{
+          marginBottom: "5px",
+        }}
+      >
+        Dictionary app
+      </h2>
+      <p
+        style={{
+          marginLeft: "20px",
+        }}
+      >
+        Languages used in this project:
+      </p>
+
       <div
         style={{
           display: "grid",
@@ -40,6 +53,37 @@ export default function Dictionary() {
             <p>{icon.name}</p>
           </div>
         ))}
+      </div>
+      <div className="container">
+        <div className="content">
+          <p className="dictionary-para">
+            This project was dedicated to developing Advanced React Development
+            Skills. The task was to build a dictionary app using two APIs, that
+            would allow the user to receive information based on their search.
+            This project allowed for a more advanced knowledge of React and
+            built up my confidence to create a more seamless project.
+          </p>
+        </div>
+        <div className="button-container">
+          <button className="icon-button">
+            <a
+              href="https://github.com/rae8108/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+          </button>
+          <button className="icon-button">
+            <a
+              href="https://dictionary-project-sun.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Website
+            </a>
+          </button>
+        </div>
       </div>
     </div>
   );
