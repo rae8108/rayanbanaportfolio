@@ -1,3 +1,7 @@
+img {
+  max-width: 30%;
+}
+
 .dictionary-container {
   display: flex;
   align-items: center;
@@ -13,10 +17,6 @@
   margin-bottom: 17px;
   margin-left: 20px;
   line-height: 1.4;
-}
-
-img {
-  max-width: 30%;
 }
 
 .container {
