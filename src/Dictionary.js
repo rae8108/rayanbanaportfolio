@@ -52,9 +52,10 @@ export default function Dictionary() {
         <h2
           style={{
             marginBottom: "5px",
+            marginLeft: "10px",
           }}
         >
-          Dictionary app
+          Dictionary App
         </h2>
         <p className="language-para">Languages used in this project:</p>
         <div id="iconContainer">
