@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import CSSIcon from ".//IconComponents/CSSIcon";
 import JSIcon from ".//IconComponents/JSIcon";
 import VSCodeIcon from ".//IconComponents/VSCodeIcon";
@@ -21,8 +21,33 @@ const icons = [
 ];
 
 export default function Dictionary() {
+  const [showSecondColumn, setShowSecondColumn] = useState(true);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 600) {
+        setShowSecondColumn(false);
+      } else {
+        setShowSecondColumn(true);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    handleResize();
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
-    <div style={{ display: "grid", gridTemplateColumns: "50% 50%" }}>
+    <div
+      style={{
+        display: "grid",
+        gridTemplateColumns: showSecondColumn ? "50% 50%" : "100%",
+      }}
+    >
       <div style={{ width: "100%" }}>
         <h2
           style={{
@@ -32,17 +57,9 @@ export default function Dictionary() {
           Dictionary app
         </h2>
         <p className="language-para">Languages used in this project:</p>
-        <div
-          style={{
-            maxWidth: "900px",
-            display: "grid",
-            gridTemplateColumns: "repeat(4, 1fr)",
-            gap: "20px",
-            fontsize: "12px",
-          }}
-        >
+        <div id="iconContainer">
           {icons.map((icon, index) => (
-            <div key={index} style={{ textAlign: "center" }}>
+            <div key={index} class="icon">
               {icon.component}
               <p>{icon.name}</p>
             </div>
@@ -81,18 +98,21 @@ export default function Dictionary() {
           </div>
         </div>
       </div>
-      <div
-        style={{
-          marginTop: "10px",
-        }}
-      >
-        <iframe
-          src="https://dictionary-project-sun.netlify.app/"
-          title="Embedded Website"
-          width="800"
-          height="500"
-        ></iframe>
-      </div>
+      {showSecondColumn && (
+        <div
+          style={{
+            marginTop: "10px",
+            width: "100%",
+          }}
+        >
+          <iframe
+            src="https://dictionary-project-sun.netlify.app/"
+            title="Embedded Website"
+            width="800"
+            height="500"
+          ></iframe>
+        </div>
+      )}
     </div>
   );
 }
