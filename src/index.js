@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import NavBar from "./NavBar";
 import PortfolioButtons from "./PortolioButtons";
 import Dictionary from "./Dictionary";
+import WorldClock from "./WorldClock";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,6 +15,7 @@ root.render(
     <App />
     <PortfolioButtons />
     <Dictionary />
+    <WorldClock />
   </React.StrictMode>
 );
 
