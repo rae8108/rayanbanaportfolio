@@ -5,5 +5,9 @@
 .link-icon {
   margin-right: 10px;
   font-size: 24px;
-  color: #133624;
+  color: #a13f35;
+  border: 2px solid #a13f35;
+  border-radius: 7px;
+  padding: 1px 3px;
+  background-color: #fcd9b1;
 }
