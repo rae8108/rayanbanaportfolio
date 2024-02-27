@@ -67,12 +67,14 @@ export default function WorldClock() {
         </div>
         <div className="grid-container">
           <div className="worldclock-para">
-            This project was dedicated to develop advanced web development
-            skills via creating a world clock. This course helped me advance JS
-            skills through building sophisticated interactions and features into
-            the project. This world clock shows the default times for Los
-            Angeles and Tokyo, whilst also allows the user to click on times for
-            London, New York and the Maldives.
+            This project was dedicated effort aimed at cultivating and enhancing
+            my web development skills via creating a world clock. Throughout
+            this project, I honed my JavaScript skills through building
+            sophisticated interactions and features into the project. The world
+            clock not only displays default times for locations such as Los
+            Angeles and Tokyo but also provides users with the ability to click
+            on additional time zones, including London, New York, and the
+            Maldives.
           </div>
 
           <div>

@@ -72,9 +72,9 @@ export default function Sanchez() {
           <div className="sanchez-para">
             This project was dedicated to build up more advance knowledge of
             responsive development via building a multiple pages website. This
-            project showcased an artist, Stephen Sanchez, and his music. This
-            project taught me to embed Spotify and use more advanced CSS
-            techniques.
+            project showcased an artist, Stephen Sanchez, and his music.
+            Throught this project, I acquired valuable insights into embedding
+            Spotify content and implementing advanced CSS techniques.
           </div>
 
           <div>

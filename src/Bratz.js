@@ -68,14 +68,15 @@ export default function Bratz() {
         </div>
         <div className="grid-container">
           <div className="bratz-para">
-            This project was to build a responsive, multi-paged website that
-            would adapt to any device. This project taught me to how to host my
-            code on Github, as well as use advanced Bootstrap (Navigation,
-            Utility Classes, etc), flexbox, Media Queries and more. I chose to
-            build a website dedicated to my favourite dolls as a child and
-            focused on building pages that introduced the dolls, showcase where
-            to buy them and a page dedicated to their contact/social media
-            information.
+            This project aimed to construct a responsive, multi-paged website
+            that would be capable of seamless adaptation to any device.
+            Throughut this project, I gained valuable insight into hosting code
+            on Github, as well as use advanced Bootstrap (Navigation, Utility
+            Classes, etc), flexbox, Media Queries and more. I chose to build a
+            website dedicated to my favourite dolls as a child and focused on
+            crafting pages that introduced the dolls, provided information on
+            where to purchase them, and offered dedicated sections for contact
+            and social media details.
           </div>
 
           <div>

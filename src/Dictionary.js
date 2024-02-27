@@ -69,11 +69,14 @@ export default function Dictionary() {
         </div>
         <div className="grid-container">
           <div className="dictionary-para">
-            This project was dedicated to developing Advanced React Development
-            Skills. The task was to build a dictionary app using two APIs, that
-            would allow the user to receive information based on their search.
-            This project allowed for a more advanced knowledge of React and
-            built up my confidence to create a more seamless project.
+            This project was a dedicated to develop and enhance my proficiency
+            in advanced React development skills. The primary objective involved
+            crafting a dynamic dictionary application utilizing two distinct
+            APIs. This innovative application empowers users to retrieve
+            comprehensive information tailored to their search queries. Through
+            the intricate development process, I deepened my understanding of
+            React, fostering confidence in executing seamless project
+            executions.
           </div>
 
           <div>

@@ -71,12 +71,12 @@ export default function Quotes() {
         <div className="grid-container">
           <div className="ai-para">
             This project was the first web application built using artificial
-            intelligence. We were focused on how to write prompts and give
-            instructions to AI tools, how to integrate an API into the code, how
-            to build interactive text generator with AI and how to integrate CSS
-            in JavaScript. I chose to build a positive quotes generator that
-            would allow the user to write a word and the AI would give the user
-            a positive quote.
+            intelligence. Our primary focus encompassed learning to craft
+            prompts and provide instructions to AI tools, how to integrate an
+            API into the code, how to build interactive text generator with AI
+            and how to integrate CSS in JavaScript. I chose to build a positive
+            quotes generator that would allow the user to write a word and the
+            AI would give the user a positive quote.
           </div>
 
           <div>
