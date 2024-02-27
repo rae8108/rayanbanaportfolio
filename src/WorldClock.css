@@ -23,19 +23,21 @@ iframe {
   margin-left: 10px;
 }
 
-.dictionary-para {
+.worldclock-para {
   max-width: 500px;
   margin-left: 20px;
 }
 
-.git-button {
+.world-git-button {
   padding: 26px;
   margin-left: 28px;
   width: 150px;
+  margin-top: 47px;
 }
 
-.web-button {
+.world-web-button {
   padding: 26px;
+  margin-top: 47px;
   width: 150px;
 }
 
@@ -63,7 +65,7 @@ iframe {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .dictionary-para {
+  .worldclock-para {
     text-align: center;
     line-height: 1.3;
   }
@@ -72,13 +74,17 @@ iframe {
     grid-template-columns: none;
   }
 
-  .git-button {
+  .world-git-button {
     width: 400px;
-    margin-top: 20px;
+
+    margin-left: 45px;
+    margin-top: 10px;
   }
 
-  .web-button {
+  .world-web-button {
     width: 400px;
-    margin-left: 28px;
+
+    margin-left: 45px;
+    margin-top: 10px;
   }
 }

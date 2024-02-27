@@ -66,7 +66,7 @@ export default function WorldClock() {
           ))}
         </div>
         <div className="grid-container">
-          <div className="dictionary-para">
+          <div className="worldclock-para">
             This project was dedicated to develop advanced web development
             skills via creating a world clock. This course helped me advance JS
             skills through building sophisticated interactions and features into
@@ -76,7 +76,7 @@ export default function WorldClock() {
           </div>
 
           <div>
-            <button className="git-button">
+            <button className="world-git-button">
               <a
                 href="https://github.com/rae8108/world-clock/blob/main/index.html"
                 target="_blank"
@@ -87,7 +87,7 @@ export default function WorldClock() {
             </button>
           </div>
           <div>
-            <button className="web-button">
+            <button className="world-web-button">
               <a
                 href="https://world-clock-rae.netlify.app/"
                 target="_blank"
@@ -109,7 +109,7 @@ export default function WorldClock() {
           <iframe
             src="https://world-clock-rae.netlify.app/"
             title="Embedded Website"
-            width="800"
+            width="700"
             height="500"
           ></iframe>
         </div>
