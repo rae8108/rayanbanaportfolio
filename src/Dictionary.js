@@ -109,7 +109,7 @@ export default function Dictionary() {
           <iframe
             src="https://dictionary-project-sun.netlify.app/"
             title="Embedded Website"
-            width="800"
+            width="700"
             height="500"
           ></iframe>
         </div>
