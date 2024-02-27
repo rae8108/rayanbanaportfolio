@@ -47,6 +47,7 @@ export default function Sanchez() {
       style={{
         display: "grid",
         gridTemplateColumns: showSecondColumn ? "50% 50%" : "100%",
+        backgroundColor: "#FAD7CE",
       }}
     >
       <div style={{ width: "100%" }}>
@@ -103,8 +104,9 @@ export default function Sanchez() {
       {showSecondColumn && (
         <div
           style={{
-            marginTop: "10px",
+            marginTop: "20px",
             width: "100%",
+            marginBottom: "20px",
           }}
         >
           <iframe
