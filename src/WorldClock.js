@@ -104,6 +104,7 @@ export default function WorldClock() {
           style={{
             marginTop: "10px",
             width: "100%",
+            marginBottom: "20px",
           }}
         >
           <iframe
