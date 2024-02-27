@@ -7,6 +7,7 @@ import NavBar from "./NavBar";
 import PortfolioButtons from "./PortolioButtons";
 import Dictionary from "./Dictionary";
 import WorldClock from "./WorldClock";
+import Sanchez from "./Sanchez";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -16,6 +17,7 @@ root.render(
     <PortfolioButtons />
     <Dictionary />
     <WorldClock />
+    <Sanchez />
   </React.StrictMode>
 );
 
