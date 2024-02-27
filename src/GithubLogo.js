@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faFile } from "@fortawesome/free-solid-svg-icons";
 import "./GithubLogo.css";
 
 export default function GithubLogo() {
@@ -13,7 +13,7 @@ export default function GithubLogo() {
             <FontAwesomeIcon icon={faGithub} />
           </span>
           <span className="link-icon">
-            <FontAwesomeIcon icon={faLinkedin} />
+            <FontAwesomeIcon icon={faFile} />
           </span>
         </div>
       </a>
