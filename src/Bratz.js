@@ -114,7 +114,7 @@ export default function Bratz() {
             src="https://silver-kitten-304eaf.netlify.app/"
             title="Embedded Website"
             width="700"
-            height="500"
+            height="550"
           ></iframe>
         </div>
       )}

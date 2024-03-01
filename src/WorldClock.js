@@ -113,7 +113,7 @@ export default function WorldClock() {
             src="https://world-clock-rae.netlify.app/"
             title="Embedded Website"
             width="700"
-            height="500"
+            height="550"
           ></iframe>
         </div>
       )}
