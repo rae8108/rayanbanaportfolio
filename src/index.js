@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import NavBar from "./NavBar";
 import PortfolioButtons from "./PortolioButtons";
 import Dictionary from "./Dictionary";
 import WorldClock from "./WorldClock";
@@ -14,8 +13,8 @@ import Quotes from "./Quotes";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <NavBar />
     <App />
+
     <PortfolioButtons />
     <Dictionary />
     <WorldClock />
